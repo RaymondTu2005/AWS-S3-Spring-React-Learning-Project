@@ -20,7 +20,6 @@ import java.io.InputStream;
 
 public class FakeS3 implements S3Client {
 
-    // TODO: Check if this works for Windows users
     private static final String PATH =
             System.getProperty("user.home") + "/.amigoscode/s3";
 

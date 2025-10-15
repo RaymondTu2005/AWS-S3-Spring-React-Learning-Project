@@ -1,10 +1,10 @@
-package com.amigoscode;
+package com.RaymondAWSS3ReactSpring;
 
-import com.amigoscode.customer.Customer;
-import com.amigoscode.customer.CustomerRepository;
-import com.amigoscode.customer.Gender;
-import com.amigoscode.s3.S3Buckets;
-import com.amigoscode.s3.S3Service;
+import com.RaymondAWSS3ReactSpring.customer.Customer;
+import com.RaymondAWSS3ReactSpring.customer.CustomerRepository;
+import com.RaymondAWSS3ReactSpring.customer.Gender;
+import com.RaymondAWSS3ReactSpring.s3.S3Buckets;
+import com.RaymondAWSS3ReactSpring.s3.S3Service;
 import com.github.javafaker.Faker;
 import com.github.javafaker.Name;
 import org.springframework.boot.CommandLineRunner;
@@ -14,7 +14,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 import java.util.Random;
-import java.util.UUID;
 
 @SpringBootApplication
 public class Main {

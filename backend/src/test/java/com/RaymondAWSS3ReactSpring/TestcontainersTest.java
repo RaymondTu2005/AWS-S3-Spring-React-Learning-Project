@@ -1,4 +1,4 @@
-package com.amigoscode;
+package com.RaymondAWSS3ReactSpring;
 
 import org.junit.jupiter.api.Test;
 

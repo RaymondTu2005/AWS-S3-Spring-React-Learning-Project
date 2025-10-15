@@ -1,4 +1,4 @@
-package com.amigoscode.exception;
+package com.RaymondAWSS3ReactSpring.exception;
 
 import java.time.LocalDateTime;
 

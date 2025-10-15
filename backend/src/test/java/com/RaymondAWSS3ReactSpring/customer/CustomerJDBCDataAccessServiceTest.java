@@ -1,6 +1,6 @@
-package com.amigoscode.customer;
+package com.RaymondAWSS3ReactSpring.customer;
 
-import com.amigoscode.AbstractTestcontainers;
+import com.RaymondAWSS3ReactSpring.AbstractTestcontainers;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

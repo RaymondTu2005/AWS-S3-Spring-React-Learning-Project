@@ -1,4 +1,4 @@
-package com.amigoscode.customer;
+package com.RaymondAWSS3ReactSpring.customer;
 
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;

@@ -1,11 +1,11 @@
-package com.amigoscode.journey;
+package com.RaymondAWSS3ReactSpring.journey;
 
-import com.amigoscode.auth.AuthenticationRequest;
-import com.amigoscode.auth.AuthenticationResponse;
-import com.amigoscode.customer.CustomerDTO;
-import com.amigoscode.customer.CustomerRegistrationRequest;
-import com.amigoscode.customer.Gender;
-import com.amigoscode.jwt.JWTUtil;
+import com.RaymondAWSS3ReactSpring.auth.AuthenticationRequest;
+import com.RaymondAWSS3ReactSpring.auth.AuthenticationResponse;
+import com.RaymondAWSS3ReactSpring.customer.CustomerDTO;
+import com.RaymondAWSS3ReactSpring.customer.CustomerRegistrationRequest;
+import com.RaymondAWSS3ReactSpring.customer.Gender;
+import com.RaymondAWSS3ReactSpring.jwt.JWTUtil;
 import com.github.javafaker.Faker;
 import com.github.javafaker.Name;
 import org.junit.jupiter.api.Test;

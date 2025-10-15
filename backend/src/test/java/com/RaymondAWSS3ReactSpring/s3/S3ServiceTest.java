@@ -1,4 +1,4 @@
-package com.amigoscode.s3;
+package com.RaymondAWSS3ReactSpring.s3;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

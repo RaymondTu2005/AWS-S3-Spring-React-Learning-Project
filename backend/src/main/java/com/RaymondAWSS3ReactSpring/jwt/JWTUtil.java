@@ -1,4 +1,4 @@
-package com.amigoscode.jwt;
+package com.RaymondAWSS3ReactSpring.jwt;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

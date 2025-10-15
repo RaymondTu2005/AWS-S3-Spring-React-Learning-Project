@@ -1,10 +1,10 @@
-package com.amigoscode.customer;
+package com.RaymondAWSS3ReactSpring.customer;
 
-import com.amigoscode.exception.DuplicateResourceException;
-import com.amigoscode.exception.RequestValidationException;
-import com.amigoscode.exception.ResourceNotFoundException;
-import com.amigoscode.s3.S3Buckets;
-import com.amigoscode.s3.S3Service;
+import com.RaymondAWSS3ReactSpring.exception.DuplicateResourceException;
+import com.RaymondAWSS3ReactSpring.exception.RequestValidationException;
+import com.RaymondAWSS3ReactSpring.exception.ResourceNotFoundException;
+import com.RaymondAWSS3ReactSpring.s3.S3Buckets;
+import com.RaymondAWSS3ReactSpring.s3.S3Service;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.security.crypto.password.PasswordEncoder;

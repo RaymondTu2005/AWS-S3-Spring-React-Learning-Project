@@ -1,4 +1,4 @@
-package com.amigoscode;
+package com.RaymondAWSS3ReactSpring;
 
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.context.annotation.Bean;

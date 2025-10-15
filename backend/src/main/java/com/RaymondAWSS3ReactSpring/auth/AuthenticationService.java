@@ -1,9 +1,9 @@
-package com.amigoscode.auth;
+package com.RaymondAWSS3ReactSpring.auth;
 
-import com.amigoscode.customer.Customer;
-import com.amigoscode.customer.CustomerDTO;
-import com.amigoscode.customer.CustomerDTOMapper;
-import com.amigoscode.jwt.JWTUtil;
+import com.RaymondAWSS3ReactSpring.customer.Customer;
+import com.RaymondAWSS3ReactSpring.customer.CustomerDTO;
+import com.RaymondAWSS3ReactSpring.customer.CustomerDTOMapper;
+import com.RaymondAWSS3ReactSpring.jwt.JWTUtil;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;

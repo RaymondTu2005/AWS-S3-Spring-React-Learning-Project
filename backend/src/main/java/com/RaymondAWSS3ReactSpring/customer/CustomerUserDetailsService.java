@@ -1,4 +1,4 @@
-package com.amigoscode.customer;
+package com.RaymondAWSS3ReactSpring.customer;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.security.core.userdetails.UserDetails;

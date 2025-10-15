@@ -1,4 +1,4 @@
-package com.amigoscode.auth;
+package com.RaymondAWSS3ReactSpring.auth;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;

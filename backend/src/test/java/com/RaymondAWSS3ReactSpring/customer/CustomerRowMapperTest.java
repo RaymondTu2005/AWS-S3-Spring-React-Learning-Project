@@ -1,4 +1,4 @@
-package com.amigoscode.customer;
+package com.RaymondAWSS3ReactSpring.customer;
 
 import org.junit.jupiter.api.Test;
 

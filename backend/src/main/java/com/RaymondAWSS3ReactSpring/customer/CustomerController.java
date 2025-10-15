@@ -1,6 +1,6 @@
-package com.amigoscode.customer;
+package com.RaymondAWSS3ReactSpring.customer;
 
-import com.amigoscode.jwt.JWTUtil;
+import com.RaymondAWSS3ReactSpring.jwt.JWTUtil;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

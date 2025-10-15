@@ -1,4 +1,4 @@
-package com.amigoscode.exception;
+package com.RaymondAWSS3ReactSpring.exception;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;

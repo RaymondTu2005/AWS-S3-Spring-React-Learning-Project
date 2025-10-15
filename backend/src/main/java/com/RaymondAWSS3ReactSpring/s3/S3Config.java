@@ -1,4 +1,4 @@
-package com.amigoscode.s3;
+package com.RaymondAWSS3ReactSpring.s3;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

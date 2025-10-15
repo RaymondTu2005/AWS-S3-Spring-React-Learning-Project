@@ -1,6 +1,6 @@
-package com.amigoscode.security;
+package com.RaymondAWSS3ReactSpring.security;
 
-import com.amigoscode.jwt.JWTAuthenticationFilter;
+import com.RaymondAWSS3ReactSpring.jwt.JWTAuthenticationFilter;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

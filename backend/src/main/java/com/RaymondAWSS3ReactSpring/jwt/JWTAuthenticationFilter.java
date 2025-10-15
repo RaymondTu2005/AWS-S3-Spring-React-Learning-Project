@@ -1,6 +1,6 @@
-package com.amigoscode.jwt;
+package com.RaymondAWSS3ReactSpring.jwt;
 
-import com.amigoscode.customer.CustomerUserDetailsService;
+import com.RaymondAWSS3ReactSpring.customer.CustomerUserDetailsService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

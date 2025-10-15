@@ -1,7 +1,6 @@
-package com.amigoscode.journey;
+package com.RaymondAWSS3ReactSpring.journey;
 
-import com.amigoscode.customer.*;
-import com.github.dockerjava.zerodep.shaded.org.apache.hc.client5.http.entity.mime.MultipartPartBuilder;
+import com.RaymondAWSS3ReactSpring.customer.*;
 import com.github.javafaker.Faker;
 import com.github.javafaker.Name;
 import org.junit.jupiter.api.Test;

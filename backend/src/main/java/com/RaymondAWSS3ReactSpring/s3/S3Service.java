@@ -1,4 +1,4 @@
-package com.amigoscode.s3;
+package com.RaymondAWSS3ReactSpring.s3;
 
 import org.springframework.stereotype.Service;
 import software.amazon.awssdk.core.ResponseInputStream;

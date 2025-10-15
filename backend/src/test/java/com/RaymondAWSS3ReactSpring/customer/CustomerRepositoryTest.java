@@ -1,7 +1,7 @@
-package com.amigoscode.customer;
+package com.RaymondAWSS3ReactSpring.customer;
 
-import com.amigoscode.AbstractTestcontainers;
-import com.amigoscode.TestConfig;
+import com.RaymondAWSS3ReactSpring.AbstractTestcontainers;
+import com.RaymondAWSS3ReactSpring.TestConfig;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

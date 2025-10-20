@@ -1,1 +1,1 @@
-
+A project featuring React.js, Spring, PostgreSQL, Java, and AWS (S3) that maps customers to an object in the database and has a frontend website. Uses docker to containerize as well, and features a UI that allows users to login, update customer information, and profile pictures (via React DropZone Library).

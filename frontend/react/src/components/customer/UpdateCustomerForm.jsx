@@ -19,6 +19,7 @@ import {
 import {errorNotification, successNotification} from "../../services/notification.js";
 import {useCallback} from "react";
 import {useDropzone} from "react-dropzone";
+import customer from "../../Customer.jsx";
 
 const MyTextInput = ({label, ...props}) => {
     // useField() returns [formik.getFieldProps(), formik.getFieldMeta()]
@@ -39,19 +40,16 @@ const MyTextInput = ({label, ...props}) => {
     );
 };
 
+
 const MyDropzone = ({customerId, fetchCustomers}) => {
     const onDrop = useCallback(acceptedFiles => {
         const formData = new FormData();
-        formData.append("file", acceptedFiles[0])
-
-        uploadCustomerProfilePicture(
-            customerId,
-            formData
-        ).then(() => {
-            successNotification("Success", "Profile picture uploaded")
-            fetchCustomers()
-        }).catch(() => {
-            errorNotification("Error", "Profile picture failed upload")
+        formData.append("file", acceptedFiles[0]);
+        uploadCustomerProfilePicture(customerId, formData).then(() => {
+            successNotification("Success", "Profile Picture Uploaded");
+                fetchCustomers();
+        }).catch(() =>  {
+            errorNotification("Error", "Profile picture failed upload");
         })
     }, [])
     const {getRootProps, getInputProps, isDragActive} = useDropzone({onDrop})
@@ -64,58 +62,30 @@ const MyDropzone = ({customerId, fetchCustomers}) => {
              borderColor={'gray.200'}
              borderRadius={'3xl'}
              p={6}
-             rounded={'md'}>
+             rounded={'md'}
+        >
             <input {...getInputProps()} />
             {
                 isDragActive ?
-                    <p>Drop the picture here ...</p> :
-                    <p>Drag and drop picture here, or click to select picture</p>
+                    <p>Drop the profile picture here ...</p> :
+                    <p>Drag and drop some picture here, or click to select pictures</p>
             }
         </Box>
     )
 }
-const MyDropZone = () => {
-    function MyDropzone() {
-        const onDrop = useCallback(acceptedFiles => {
-            // Do something with the files
-        }, [])
-        const {getRootProps, getInputProps, isDragActive} = useDropzone({onDrop})
-
-        return (
-            <Box {...getRootProps()}
-                 width={'100%'}
-                 textAlign={'center'}
-                 border={'dashed'}
-                 borderColor={'grey.200'}
-                 p={6}
-                 rounded{'md'}
-                borderRadius={'3xl'}
-            >
-                <input {...getInputProps()} />
-                {
-                    isDragActive ?
-                        <p>Drop the profile picture here ...</p> :
-                        <p>Drag and drop some pictures here, or click to select picture</p>
-                }
-            </Box>
-        )
-    }
-};
 // And now we can use these
 const UpdateCustomerForm = ({fetchCustomers, initialValues, customerId}) => {
     return (
         <>
-            <MyDropZone/>
-            <VStack spacing={'5'} mb={'5'}>
+            <VStack spacing = {'5'} mb = {'5'}>
                 <Image
-                    borderRadius={'full'}
-                    boxSize={'150px'}
-                    objectFit={'cover'}
-                    src={customerProfilePictureUrl(customerId)}
+                borderRadius = {'full'}
+                boxSize={'150px'}
+                objectFit={'cover'}
+                src={customerProfilePictureUrl(customerId)}
                 />
-                <MyDropzone
-                    customerId={customerId}
-                    fetchCustomers={fetchCustomers}
+                <MyDropzone customerId={customerId}
+                            fetchCustomers={fetchCustomers}
                 />
             </VStack>
             <Formik
